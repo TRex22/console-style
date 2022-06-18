@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["trex22"]
   spec.email         = ["contact@jasonchalom.com"]
 
-  spec.summary       = "A client for using the Console Style in Ruby."
-  spec.description   = "A client for using the Console Style in Ruby. This is an unofficial project."
+  spec.summary       = "A set of helper methods to help print to console."
+  spec.description   = "A set of helper methods to help print to console."
   spec.homepage      = "https://github.com/TRex22/console-style"
   spec.license       = "MIT"
 
