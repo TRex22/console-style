@@ -18,12 +18,9 @@ Or install it yourself as:
     $ gem install console-style
 
 ## Usage
-
 ```ruby
-  require 'console-style/functions'
-
-
-
+  require 'console-style'
+  ConsoleStyle::Functions.style('bob', ConsoleStyle::Functions::GREEN)
 ```
 
 ## Development

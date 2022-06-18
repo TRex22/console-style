@@ -1,5 +1,6 @@
 module ConsoleStyle
   module Functions
+    extend self
     # TODO: handle emoji compatibility
 
     GREEN = 32

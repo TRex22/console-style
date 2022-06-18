@@ -1,9 +1,5 @@
-require 'httparty'
-
-require 'console-style/constants'
 require 'console-style/version'
-
-require 'console-style/client'
+require 'console-style/functions'
 
 module ConsoleStyle
   class Error < StandardError; end
