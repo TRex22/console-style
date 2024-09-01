@@ -1,23 +1,26 @@
 PATH
   remote: .
   specs:
-    console-style (0.0.1)
+    console-style (0.0.2)
 
 GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.3)
-    method_source (1.0.0)
-    pry (0.14.1)
+    method_source (1.1.0)
+    pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
 
 PLATFORMS
-  arm64-darwin-20
+  arm64-darwin
+  arm64-darwin-23
+  ruby
+  x86_64-linux
 
 DEPENDENCIES
   console-style!
   pry
 
 BUNDLED WITH
-   2.3.5
+   2.5.9

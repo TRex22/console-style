@@ -35,6 +35,21 @@ module ConsoleStyle
       puts line
     end
 
+    # From: https://github.com/savonrb/nori
+    def snakecase(str)
+      str = str.dup
+
+      str.gsub!(/::/, '/')
+      str.gsub!(/([A-Z]+)([A-Z][a-z])/, '\1_\2')
+      str.gsub!(/([a-z\d])([A-Z])/, '\1_\2')
+      str.gsub!(' ', '_')
+      str.tr!('.', '_')
+      str.tr!('-', '_')
+      str.downcase!
+
+      str
+    end
+
     # Execute commands
     def execute(command)
       `#{command}`.gsub(" \n", '').gsub("\n", '')

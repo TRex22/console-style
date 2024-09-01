@@ -1,0 +1,4 @@
+#!/bin/bash
+bundle
+gem build console-style.gemspec
+# gem push console-style
